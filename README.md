@@ -16,15 +16,15 @@ Docker Commands:
 2. `docker run <file_name`
 
 ### Steps:
-1.Createw the required files such as the dataset csv(house-price-prediction.csv), training model python file, requirements text file, Dockerfile
-2. In Jenkins creaset a new item under Freestyle Project item type
-3. Selec Git in Source Code Management and paste your github repository url in the given space
-4. Add Execute Windows batch command step
-5. Save the configuration
+1. Create the required files such as the dataset csv file(house-price-prediction.csv), requirements txt file, training model python file, Dockerfile
+2. Create a new item under the Freestyle Project in Jenkins
+3. Select Git in Source Code Management
+4. Add Execute Windows Batch Command Step in Build Steps
+5. Save the configurations
 6. Build now and visualize console output
-7. Now open command prompt with the required folder path
-8. Execute the Docker commands
-9. Now you can visualize the output in both the command prompt and in the containers from Docker Desktop app.
+7. Now open the command prompt with the path of the folder containing the required files
+8. Execute the Docker commands mentioned above
+9. The output can be visualized in the command prompt and the Docker Desktop app
 
 Output:
 ![image](https://github.com/user-attachments/assets/53e32c46-2010-4392-8238-733d7f1f606a)
