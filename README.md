@@ -1,7 +1,7 @@
 # House Price Prediction
 
 ### Description
-A regression type prediction model usin Random Forest Regressor algorithm that uses MSE (Mean Squared Error) as metric for prediction
+A regression type prediction model usin Random Forest Regressor algorithm that uses MSE (Mean Squared Error) as metric for prediction.
 
 ### Git and other commands used:
 1. `mkdir <file_name>` to create the folder
