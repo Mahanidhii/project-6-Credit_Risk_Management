@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import joblib
 
 # Load dataset
-data = pd.read_csv('House_Price_Predection.csv')  # Update the dataset filename
+data = pd.read_csv('House_Price_Predection.csv')  
 
 # Data preprocessing (modify this based on your dataset)
 # Assuming columns 'num_bedrooms', 'num_bathrooms', 'square_footage', 'location', and 'price'
