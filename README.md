@@ -13,7 +13,7 @@ A regression type prediction model usin Random Forest Regressor algorithm that u
 8. `git push --set-upstream origin master`, sends all the files from git to github.
 
 Docker Commands:
-1. `docker build -t <file_name>`
+1. `docker build -t <file_name> .`
 2. `docker run <file_name`
 
 ### Steps:
